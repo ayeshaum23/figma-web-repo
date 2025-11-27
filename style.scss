@@ -10,37 +10,62 @@
   overflow: hidden;
 }
 /* Header start */
-.Hero-section {
+.container {
   height: 611px;
   background-size: cover;
   background-position: center;
   overflow: hidden;
   background-color: #9cf0c3;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica;
+}  
+ 
+.logo {
+  margin-top: 15px;
 }
-.btn {
-  margin-top: 150px;
+.nav-link {
+  margin-top: 10px;
+  margin-left: 850px;
+  height: 10px;
+}
+.action-btn {
+  margin-top: 20px;
   margin-left: 20px;
   border-radius: 55px;
+  width: 125px;
+  height: 25px;
   border-color: #11260f;
   background-color: #1f471a;
+  color: aliceblue;
   font-size: 10px;
 }
+.Hero-section {
 h1 {
-  margin-top: 40px;
+  margin-top: 180px;
   margin-left: 20px;
-  font-size: 80px;
+  font-size: 70px;
   color: #1f471a;
   line-height: 1;
+  font-family: Arial, Helvetica;
 }
 p {
   margin-top: 20px;
   margin-left: 20px;
   color: #1f471a;
 }
-img {
-  margin-top: 65px;
-  margin-left: 80px;
-  background-color: #49fca599;
+.btn-1 {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  border-radius: 55px;
+  height: 25px;
+  width: 125px;
+  border-color: #11260f;
+  background-color: #1f471a;
+  font-size: 10px;
+  color: white;
+}  
+.img {
+  margin-right: 40px;
+  margin-top: 30px;
+}
 }
 /* Header end */
