@@ -9,8 +9,11 @@
   margin: 0 auto;
   overflow: hidden;
 }
+body {
+  font-family: "Trirong", serif;
+}
 /* Header start */
-.container {
+.container mt-3 {
   height: 611px;
   background-size: cover;
   background-position: center;
